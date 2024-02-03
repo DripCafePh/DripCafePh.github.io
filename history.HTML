@@ -1,154 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>DRiP Cafe Facebook Reviews</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DRiP Cafe History</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="footerstyle.css">
+  <link rel="stylesheet" href="history.css">
   <link rel="stylesheet" href="navigation_style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
   <style>
+
     .backToTop {
-  text-align: left;
-  font-size: 10px;
-}
-
-.backToTop a:link {
-  color:#000000;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.backToTop a:visited {
-  color:#000000;
-  background-color: transparent;
-  text-decoration: none;
-}
-    button.sectionbtn {
-      background-color: #72472E;
-      border: #454545;
-      color: #fff;
-      padding: 10px;
-      text-align: center;
+      text-align: left;
+      font-size: 10px;
+    }
+    
+    .backToTop a:link {
+      color:#000000;
+      background-color: transparent;
       text-decoration: none;
-      display: inline-block;
-      border-radius: 30px;
-      margin-top: 2em;
     }
-
-    .imgsection {
-      display: block;
-      width: 80%;
-      margin-left: 15%;
-      margin-right: auto;
+    
+    .backToTop a:visited {
+      color:#000000;
+      background-color: transparent;
+      text-decoration: none;
     }
+</style>    
 
-    .rounded-image {
-            border-radius: 10px; /* Adjust the value to control the roundness */
-            overflow: hidden;   /* Ensures the rounded corners are visible */
-        }
 
-   /* container */
-.responsive-three-column-grid {
-    display:block;
-    align-items: center;
-    justify-content: center;
-}
-
-/* columns */
-.responsive-three-column-grid > * {
-    padding: 1rem 1rem;
-}
-
-.responsive-three-column-grid  img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* tablet breakpoint */
-@media (min-width:768px) {
-    .responsive-three-column-grid {
-        display: grid;
-        grid-auto-rows: 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
-        justify-content: center;
-    }
-}
-  </style>
 </head>
 <body>
-
+  <a id="top"></a> <!-- ADD TO EVERY PAGE RIGHT AFTER BODY FOR BACK TO TOP -->
   <div class="topnav" id="myTopnav">
-    <div class="logo"><img src="Logo.jpg" alt="Logo"></div>
+    <div class="logo"><img src="Logo.jpg"/></div>
     <div class="menu">
-      <a href="index.html">HOME</a>
-      <div class="dropdown">
-        <button class="dropbtn">MENU
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="coffeeProds.html">COFFEE PRODUCTS</a>
-          <a href="NonCoffeeProducts.html">NON-COFFEE PRODUCTS</a>
-          <a href="Frappuccino.html">FRAPPUCCINO</a>
-          <a href="FoodProducts.html">FOOD PRODUCTS</a>
-        </div>
-      </div>
-      <div class="dropdown">
-        <button class="dropbtn">REVIEWS
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="GrabReviews.html">GRAB REVIEWS</a>
-            <a href="FacebookReviews.html">FACEBOOK REVIEWS</a>
-            <a href="AddReview.html">ADD YOUR REVIEW HERE</a>
-        </div>
-      </div> 
+    <a href="index.html">HOME</a>
     
-      <div class="dropdown">
-        <button class="dropbtn">ABOUT US
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
+    <div class="dropdown">
+      <button class="dropbtn">MENU
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+          <a href="coffeeProds.html">COFFEE PRODUCTS</a>
+          <a href="nonCoffeeProducts.html">NON-COFFEE PRODUCTS</a>
+          <a href="frappuccino.html">FRAPPUCCINO</a>
+          <a href="foodProducts.html">FOOD PRODUCTS</a>
+      </div>
+    </div> 
+  
+    <div class="dropdown">
+      <button class="dropbtn">REVIEWS
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+          <a href="GrabReviews.html">GRAB REVIEWS</a>
+          <a href="FacebookReviews.html">FACEBOOK REVIEWS</a>
+          <a href="AddReview.html">ADD YOUR REVIEW HERE</a>
+      </div>
+    </div> 
+  
+    <div class="dropdown">
+      <button class="dropbtn">ABOUT US
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
           <a href="history.html">HISTORY</a>
           <a href="mission.html">MISSION</a>
           <a href="vission.html">VISION</a>
           <a href="bm.html">BRANCH MAP</a>
-        </div>
-      </div> 
-    
-      <a href="contact.html">CONTACT US</a>
-    
-      <div class="dropdown">
-        <button class="dropbtn">SUPPORT
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="Services.html">SERVICES</a>
-            <a href="CustomerFeedback.html">CUSTOMER FEEDBACK</a>
-        </div>
-      </div> 
-    
-      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
       </div>
-    </div>
-<br />
-<br />
-    <div class="responsive-three-column-grid">
-    <div>
-      <img src="FBRev1.png" alt="FBRev1"  class="rounded-image" height="400px">
-    </div>
-
-      <div>
-        <img src="FBRev2.png" alt="FBRev2" class="rounded-image" height="400px">
+    </div> 
+  
+    <a href="contact.html">CONTACT US</a>
+  
+    <div class="dropdown">
+      <button class="dropbtn">SUPPORT
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+          <a href="Services.html">SERVICES</a>
+          <a href="CustomerFeedback.html">CUSTOMER FEEDBACK</a>
       </div>
-
-        <div>
-          <img src="FBReview.png" alt="FBReview"  class="rounded-image" height="400px">
-          </div>
-
+    </div> 
+  
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
   </div>
-  <br />
-  <br />
+
+
+    <div id="content-container">
+      <div id="content-frame">
+        <br /><br />
+        <h1 class="garps2">History</h1>
+        <p class="garps">   Our story starts right after high school graduation when my ABM-strand business partner and I, a STEM graduate, 
+          discovered an available piece of land near his family's business.Excited about the idea of a coffee shop, we faced the
+             hurdle of limited capital. I joined as a co-owner, and together, we kicked off planning and construction in July 2023.,
+              With hard work, dedication, and a touch of fate,our coffee shop opened its doors on August 8, 2023.
+               Since then, we've brewed success. From the inviting aroma to the friendly atmosphere, our coffee shop has become a
+               local favorite. Thanks to our wonderful patrons, we've not only survived but thrived, consistently generating the
+                revenue needed to sustain our venture. We're grateful for the support and look forward to serving you quality brews
+                 and creating more memorable moments in the years ahead.</p>
+        <br /><br />
+      </div>
+    </div>
+  </section>
+
+
   <footer class="footer" style="background-color: #E6E3E2; padding: 0 10% ">
     <br /> <br />
     
@@ -228,16 +189,19 @@
           <br />
           <br />
         </footer>
-  <script>
-  function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-</script>
+        
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>    
+
 </body>
 </html>
+
 
